@@ -1,0 +1,22 @@
+{
+  "name": "aws-ses-mail",
+  "author": "Milly <milly@wavinfo.com>",
+  "version": "1.0.1",
+  "description": "Convenience tool for AWS SES",
+  "contributors": [
+    "Milly <milly@wavinfo.com>"
+  ],
+  "keywords": [
+    "aws",
+    "ses"
+  ],
+  "main": "aws-ses-mail.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.0.0-rc13",
+    "jade": "^1.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
