@@ -284,7 +284,7 @@ sesMail.sendEmailBatch(options, function(data) {
         },
         {"ResponseMetadata":{"RequestId":"XXXXX"},
          "MessageId":"XXXXXX",
-         "email":"milly@wavinfo.com"
+         "email":"XXXXX@XXXXX"
         }
       ],
       "failedLog":[
@@ -347,7 +347,7 @@ sesMail.sendEmailBatchByJade(options, function(data) {
         },
         {"ResponseMetadata":{"RequestId":"XXXXX"},
          "MessageId":"XXXXXX",
-         "email":"milly@wavinfo.com"
+         "email":"XXXXXX@XXXXXX"
         }
       ],
       "failedLog":[
