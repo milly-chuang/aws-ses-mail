@@ -1,7 +1,7 @@
 {
   "name": "aws-ses-mail",
   "author": "Milly <milly@wavinfo.com>",
-  "version": "1.0.1",
+  "version": "2.1.0",
   "description": "Convenience tool for AWS SES",
   "contributors": [
     "Milly <milly@wavinfo.com>"
@@ -10,7 +10,7 @@
     "aws",
     "ses"
   ],
-  "main": "aws-ses-mail.js",
+  "main": "lib/aws-ses-mail.js",
   "dependencies": {
     "async": "^0.9.0",
     "aws-sdk": "^2.0.0-rc13",
