@@ -2,7 +2,7 @@
   "name": "aws-ses-mail",
   "author": "Milly <milly@wavinfo.com>",
   "version": "2.1.0",
-  "description": "Convenience tool for AWS SES",
+  "description": "A simple package for sending email from aws ses",
   "contributors": [
     "Milly <milly@wavinfo.com>"
   ],
@@ -16,6 +16,15 @@
     "aws-sdk": "^2.0.0-rc13",
     "jade": "^1.5.0"
   },
+  "homepage": "https://github.com/milly-chuang/aws-ses-mail",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/milly-chuang/aws-ses-mail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milly-chuang/aws-ses-mail/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
