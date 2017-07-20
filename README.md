@@ -94,7 +94,7 @@ This package help you to send a large amount of email.
 * [`sendEmailBatchByJade`](#sendEmailBatchByJade)
 * [`sendEmailBatchByHtml`](#sendEmailBatchByHtml)
 
-<a name="sendEmail" />
+<a name="sendEmail"></a>
 #### sendEmail(options, [callback])
 `from`: **Required.** (String) — The identity's email address.
 
@@ -164,7 +164,7 @@ sesMail.sendEmail(options, function(err, data) {
 });
 ```
 
-<a name="sendEmailByJade" />
+<a name="sendEmailByJade"></a>
 #### sendEmailByJade(options, [callback])
 `from`: **Required.** (String) — The identity's email address.
 
@@ -240,11 +240,11 @@ sesMail.sendEmailByJade(options, function(err, data) {
 });
 ```
 
-<a name="sendEmailByHtml" />
+<a name="sendEmailByHtml"></a>
 #### sendEmailByHtml(options, [callback])
 Same as [`sendEmailByJade`](#sendEmailByJade).
 
-<a name="sendEmailBatch" />
+<a name="sendEmailBatch" /></a>
 #### sendEmailBatch(options, [callback])
 `from`: **Required.** (String) — The identity's email address.
 
@@ -301,7 +301,7 @@ sesMail.sendEmailBatch(options, function(data) {
 });
 ```
 
-<a name="sendEmailBatchByJade" />
+<a name="sendEmailBatchByJade" ></a>
 #### sendEmailBatchByJade(options, [callback])
 `from`: **Required.** (String) — The identity's email address.
 
@@ -364,12 +364,12 @@ sesMail.sendEmailBatchByJade(options, function(data) {
 });
 ```
 
-<a name="sendEmailBatchByHtml" />
+<a name="sendEmailBatchByHtml"></a>
 #### sendEmailBatchByHtml(options, [callback])
 Same as [`sendEmailBatchByJade`](#sendEmailBatchByJade).
 
 
-<a name="template" />
+<a name="template"></a>
 ## template
 This package only support jade and html template.
 The argument format is like #{key};
